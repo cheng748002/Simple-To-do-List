@@ -71,7 +71,7 @@ $tasks = $stmt->fetchAll();
             </td>
             <td>
                 <a href="update.php?id=<?= $task['id'] ?>" class="btn btn-sm btn-warning">Sửa✍️</a>
-                <a href="delete.php?id=<?= $task['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Xóa?')">Xóa❌</a>
+                <a href="delete.php?id=<?= $task['id'] ?>" class="btn btn-sm btn-danger" onclick="return confirm('Bạn chắc chắn muốn xóa task này?')">Xóa❌</a>
             </td>
         </tr>
         <?php endforeach; ?>

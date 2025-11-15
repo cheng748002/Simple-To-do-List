@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db   = 'todo_db';
 $user = 'root';
-$pass = ''; // Mặc định XAMPP không có mật khẩu
+$pass = ''; 
 
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8mb4";
 

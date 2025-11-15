@@ -1,4 +1,4 @@
-#PHP Simple To-Do List
+##PHP Simple To-Do List
 *Một ứng dụng quản lý công việc đơn giản cho phép người sử dụng thao tác thêm, sửa, xóa, cập nhật các công việc cần làm với giao diện đơn giản, dễ sử dụng*
 
 ---------------------------------------------------
@@ -6,7 +6,7 @@ Môn học: Ngôn ngữ lập trình PHP
 Công cụ: XAMPP, phpMyAdmin, PHP thuần, Bootstrap  
 ---------------------------------------------------
 
-# 1. Cơ sở dữ liệu (Database Structure)
+### 1. Cơ sở dữ liệu (Database Structure)
 
 **DATABASE: todo_db**
 - Bảng `users`:

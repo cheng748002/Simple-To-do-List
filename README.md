@@ -1,9 +1,9 @@
-PHP Simple To-Do List
-**Một ứng dụng quản lý công việc đơn giản cho phép người sử dụng thao tác thêm, sửa, xóa, cập nhật các công việc cần làm với giao diện đơn giản, dễ sử dụng
+#PHP Simple To-Do List
+Một ứng dụng quản lý công việc đơn giản cho phép người sử dụng thao tác thêm, sửa, xóa, cập nhật các công việc cần làm với giao diện đơn giản, dễ sử dụng
 
 ---------------------------------------------------
-#Môn học: Ngôn ngữ lập trình PHP  
-#Công cụ: XAMPP, phpMyAdmin, PHP thuần, Bootstrap  
+##Môn học: Ngôn ngữ lập trình PHP  
+##Công cụ: XAMPP, phpMyAdmin, PHP thuần, Bootstrap  
 ---------------------------------------------------
 
 ### 1. Cơ sở dữ liệu (Database Structure)
@@ -27,29 +27,29 @@ PHP Simple To-Do List
 
 ---------------------------------------------------
 
-# 2. Tính năng Xác thực (Authentication)
+### 2. Tính năng Xác thực (Authentication)
 
 **Chức năng**
-Đăng ký          | auth/register.php
-Đăng nhập        | auth/login.php 
-Đăng xuất        | auth/logout.php
-Kiểm tra truy cập| tasks/auth_check.php
+- Đăng ký          | auth/register.php
+- Đăng nhập        | auth/login.php 
+- Đăng xuất        | auth/logout.php
+- Kiểm tra truy cập| tasks/auth_check.php
 
 ---------------------------------------------------
 
-# 3. Quản lý công việc (CRUD) 
+### 3. Quản lý công việc (CRUD) 
 
 **Thao tác** 
-Create | tasks/create.php  | Thêm công việc mới 
-Read   | tasks/index.php   | Hiển thị danh sách + Lọc theo trạng thái + Sắp xếp theo hạn/mới nhất 
-Update | tasks/edit.php    | Sửa + Thay đổi trạng thái 
-Delete | tasks/delete.php  | Xóa công việc   
+- Create | tasks/create.php  | Thêm công việc mới 
+- Read   | tasks/index.php   | Hiển thị danh sách + Lọc theo trạng thái + Sắp xếp theo hạn/mới nhất 
+- Update | tasks/edit.php    | Sửa + Thay đổi trạng thái 
+- Delete | tasks/delete.php  | Xóa công việc   
 
 => Tất cả công việc chỉ hiển thị của người dùng đang đăng nhập.
 
 ---------------------------------------------------
 
-# 4. Cài đặt và chạy ứng dụng
+### 4. Cài đặt và chạy ứng dụng
 
 **Yêu cầu**
 	- XAMPP
